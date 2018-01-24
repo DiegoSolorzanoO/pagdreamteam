@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Equipo DreamTeam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleAva.css">
+    <link rel="icon" type="image/png" href="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\logo.png" />
+</head>
+<body id="cuerpo">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+    <div class="menu">
+        <img id="logo" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\logo.png" style="width:80px;height:80px;">
+        <a href="#portada">Bienvenida</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#aprendizajes">Aprendizajes</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+    <div id="portada">
+        <div class="letraP">
+            <h1>¡Bienvenido!</h1>
+            <p>Nosotros somos estudiantes del Tecnológico de Monterrey campus Guadalajara! Somos equipo de la clase de Fundamentos de Diseño Interactivo.</p>
+        </div>
+    </div>
+    <div id="nosotros">
+        <h1>Nosotros</h1>
+        <div class="imagesN">
+        <img id="guido" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\guido.jpg" style="width: 15%;height: 15%">
+        <img id="diego" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\diego.jpg" style="width: 15%;height: 15%">
+        <img id="beto" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\beto.png" style="width: 15%;height: 15%">
+        </div>
+        <div id="tabla">
+        <table style="margin: auto">
+            <tr align="center">
+                <th style="padding:0 200px 0 110px;">
+                    <h1>Jaret Guido</h1>
+                </th>
+                <th>
+                    <h1>Diego Solórzano</h1>
+                </th>
+                <th style="padding:0 60px 0 140px;">
+                    <h1>Alberto Labrada</h1>
+                </th>
+            </tr>
+        </table>
+        <table id="descripcionesN" cellspacing="20">
+            <tr>
+                <td style="width: 10%" valign="top">
+                    <p align="justify">Soy originario de Guadalajara, Jalisco, tengo 18 años y mis pasiones son jugar videojuegos, escuchar música, ver series de televisión y estar con mis amigos y familía. Desde pequeño siempre supe que quería dedicar mi vida entera a la tecnología y los avances del futuro, espero algún día poder crear un proyecto que combine el cuidado del medio ambiente con la tecnología de uso diario de las personas. Siempre he dicho “Si quieres lograr algo lucha por ello sin descanso”, por eso en este momento estoy en mi lucha de convertirme en un Ingeniero en Sistemas Computacionales.</p>
+                </td>
+                <td style="width: 10%" valign="top">
+                    <p align="justify">Estudiante de 19 años nacido en Cuernavaca, Morelos. Estudio en el Tecnológico de Monterrey en Guadalajara en la carrera de Ingeniería en Sistemas Computacionales.  Mis pasiones en la vida son la programación, la música y los videojuegos. Mi visión del mundo es aquel en donde la tecnología ayude al equilibrio entre el hombre con el ambiente en donde ambos tengan un excelente crecimiento. Estuve estudiando mi preparatoria en el mismo Tec y deseo terminar mis estudios en la misma institución.</p>
+                </td>
+                <td style="width: 10%" valign="top">
+                    <p align="justify">Nací en Culiacán, Sinaloa y actualmente estudio el segundo semestre de la carrera de ISC (Ingeniería en Sistemas Computacionales) en el Tecnológico de Monterrey Campus Guadalajara. Mis intereses y hobbies son hacer ejercicio, tocar la guitarra, ver series y salir con mis amigos. Soy una persona apasionada por la ingeniería, la música y las matemáticas.</p>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div id="aprendizajes">
+        <h1>Aprendizajes</h1>
+        <div>
+            <img id="htmlI" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\htm.png" width="30%" height="30%">
+            <p id="txthtml" align="justify">Hyper Text Markup Language tambien conocido como HTML fue el primer lenguaje de programación orientado al manejo de paginas web para el usuario, incluyendo solo algunas pocas herramientas para el manejo de cuadros de textos y orientaciones, convirtiéndose en la base de programación de paginas web. Con el paso del tiempo HTML desarrollo diferentes versiones del mismo lenguaje implementando nuevas herramientas para hacer posible la implementación de: buscadores, tiendas en línea y banca electrónica.</p>
+        </div>
+        <div>
+            <img id="cssI" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\css.png" width="30%" height="30%">
+            <p id="txtcss" align="justify">El lenguaje de programación Cascading Style Sheets tambien conocido como CSS es un lenguaje de programación que funciona como soporte para el diseño del desarrollo de páginas web por medio de HTML, este lenguaje de programación describe la manera en la cual los elementos de las páginas web son desplegados, así como los estilos que llevan los mismos elementos, es decir que CSS funciona como un lenguaje que sirve para crear un ambiente más agradable para el usuario.</p>
+        </div>
+        <div>
+            <img id="jsI" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\js.png" width="30%" height="30%">
+            <p id="txtjs" align="justify">JavaScript es un lenguaje de programación que puede ser utilizado desde cambiar elementos de HTML hasta definir el comportamiento de la página. Emplea el uso de librerías para no repetir ciertos códigos. Otro atributo que tiene es Content Delivery Network o CDN, cuya idea principal es para utilizar todo el contenido de una página (imagenes, animaciones) en múltiples servidores en vez de solamente uno local, lo que de algún modo agiliza el proceso de carga.</p>
+        </div>
+    </div>
+    <div id="contacto">
+        <h1>Contacto</h1>
+        <h5>Nos puedes encontrar en el Tecnológico de Monterrey, por nuestros correos o redes sociales</h5>
+            <div id="mapa" style="width:400px;height:400px"></div>
+        <div id="info">
+            <h4> Diego Solórzano : A01422048@itesm.mx</h4>
+            <h4> Victor Jaret Guido : A01630603@itesm.mx</h4>
+            <h4> Alberto Labrada : A01114148@itesm.mx</h4>
+        </div>
+        <p style="padding-bottom: 500px"></p>
+        <script>
+            function myMap() {
+                var mapProp= {
+                    center:new google.maps.LatLng(20.733626,-103.4558063),
+                    zoom:15
+                };
+                var map=new google.maps.Map(document.getElementById("mapa"),mapProp);
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmf-HrcqS6WP-vxPHbyY9DPzHO9XQUi7M&callback=myMap"></script>
+    </div>
+    <div class="footer">
+        <div>
+            <h1 align="center">Redes Sociales</h1>
+            <div id="redessociales">
+                <a href="https://www.facebook.com/albertolabrada" target="_blank"><img class="icon" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\face.png" style="width: 50px;height: 50px;"></a>
+                <a href="https://www.facebook.com/albertolabrada" target="_blank"><img class="icon" src="C:\Users\diego\Documents\TECUNI\SegundoSemstre\FDI\DreamTeamPag\media\twitter.jpg" style="width: 50px;height: 50px;"></a>
+                <p>Desarrollado por Diego Solorzano, Jaret Guido y Alberto Labrada</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

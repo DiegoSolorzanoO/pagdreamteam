@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#portada {
+    background-image: url(http://dodskypict.com/D/New-York-City-Black-And-White-Wallpaper-On-Wallpaper-Hd-18.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    left: 0;
+}
+
+.letraP {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} p {
+    font-size: 30px;
+  }
+.letraP h1 {
+    font-size: 100px;
+}

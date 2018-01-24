@@ -1,0 +1,220 @@
+#cuerpo {
+    background: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-32.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+.menu {
+    overflow: hidden;
+    background-color: #b1d1fe;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    z-index: 1;
+}
+
+#logo {
+    float: left;
+    padding: 10px 10px;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 35px 30px;
+    text-decoration: none;
+    font-size: 33px;
+    font-family: Bahnschrift;
+}
+
+.menu a:hover {
+    background: #0b1d1c;
+    color: #ffffff;
+}
+
+.bienvenida {
+    margin-top: 120px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    position: static;
+    left: 0;
+
+}
+.bienvenida h1 {
+    text-align: center;
+    font-size: 70px;
+    padding: 10px 20px;
+    color: white;
+}
+.bienvenida h5 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: white;
+}
+
+#nosotros {
+    margin-top: 5px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    position: static;
+    left: 0;
+}
+#nosotros h1 {
+      text-align: center;
+      font-size: 100px;
+      padding: 10px 20px;
+      color: white;
+  }
+
+#guido {
+    padding-left: 14%;
+    padding-right: 13%;
+    padding-bottom: 10px;
+}
+#diego {
+    padding-right: 13%;
+    padding-bottom: 35px;
+}
+#beto {
+    padding-right: 13%;
+}
+#tabla h1{
+    font-size: 50px;
+}
+#tabla p{
+    color: #d0d0d0;
+    font-size: 20px;
+}
+#descripcionesN {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#descripcionesN p{
+    width: 100%;
+}
+#aprendizajes {
+    margin-top: 70px;
+    background-color: rgba(191, 191, 191, 0.8);
+    width: 100%;
+    position: static;
+    left: 0;
+
+}
+#aprendizajes h1 {
+    text-align: center;
+    font-size: 100px;
+    padding: 20px 20px;
+    color: #333330;
+}
+#aprendizajes h5 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: white;
+}
+#htmlI {
+    float: left;
+    width: 20%;
+    padding: 0 45px 0 20px;
+}
+#txthtml {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-right: 80px;
+    font-family: Bahnschrift;
+    color: #333330;
+}
+#cssI {
+    float: right;
+    width: 30%;
+}
+#txtcss {
+    font-size: 40px;
+    padding: 130px 0 110px 80px;
+    font-family: Bahnschrift;
+    color: #333330;
+}
+#jsI {
+    float: left;
+    width: 20%;
+    padding: 10px 45px 0 20px;
+}
+#txtjs {
+    font-size: 40px;
+    padding: 30px 80px 80px 0;
+    font-family: Bahnschrift;
+    color: #333330;
+}
+#contacto {
+    margin-top: 70px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    position: static;
+    left: 0;
+
+}
+#contacto h1 {
+    text-align: center;
+    font-size: 100px;
+    padding: 10px 0 0 0;
+    color: white;
+}
+#contacto h5 {
+    text-align: center;
+    font-size: 30px;
+    padding: 0 0 10px 0;
+    color: white;
+}
+
+#mapa {
+    height: 100%;
+    left: 0;
+    right: 150px;
+    margin-left: 12%;
+    margin-bottom: 1%;
+    float: left;
+}
+#info {
+    float: right;
+    margin-right: 15%;
+}
+#info h4 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 20px;
+    color: white;
+}
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+}
+.footer h1 {
+    font-size: 30px;
+    padding: 10px 0 0 0;
+    font-family: Oswald;
+}
+.footer p {
+    font-size: 20px;
+    padding: 10px 0 30px 0;
+    font-family: Oswald;
+}
+
+#redessociales {
+    text-align: center;
+}
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 0 20px;
+    display: inline-block;
+}
