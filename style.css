@@ -159,7 +159,7 @@
     color: white;
 }
 .footer {
-    position: static;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -168,13 +168,13 @@
     text-align: left;
 }
 .footer h1 {
-    font-size: 30px;
-    padding: 10px 0 0 0;
+    font-size: 25px;
+    padding: 0 0 0 0;
     font-family: Oswald;
 }
 .footer p {
     font-size: 20px;
-    padding: 10px 0 30px 0;
+    padding: 10px 0 0x 0;
     font-family: Oswald;
 }
 
