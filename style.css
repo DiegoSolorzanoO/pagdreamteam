@@ -7,7 +7,7 @@
 .menu {
     overflow: hidden;
     background-color: #b1d1fe;
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
