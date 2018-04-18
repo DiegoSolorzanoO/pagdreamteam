@@ -5,12 +5,10 @@ body, html {
 
 #portada {
     background-image: url(http://dodskypict.com/D/New-York-City-Black-And-White-Wallpaper-On-Wallpaper-Hd-18.jpg);
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: static;
-    left: 0;
 }
 
 .letraP {
